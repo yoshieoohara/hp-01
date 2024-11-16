@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/* faq */
+.page-top {
+  position: relative;
+  background-image: url(../img/faq-fv-bg.png);
+  background-size: cover;
+  background-position: 50%;
+  z-index: 0;
+  margin-top: 20.8125rem;
+}
+
+.page-faq-wrap {
+  max-width: 48.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6.25rem;
+  padding: 5.75rem 2.5rem 5rem;
+}
+
+.page-faq .faq-wrap__list {
+margin-top: 3.25rem;
+}
+
+.page-faq .faq-wrap__list__item__ttl::before,
+.page-faq .faq-wrap__list__item__ttl::after {
+  right: 9%;
+}
+

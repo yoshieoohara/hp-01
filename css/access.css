@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+/* page-top */
+.page-top {
+  position: relative;
+  background-image: url(../img/access-fv-bg.png);
+  background-size: cover;
+  background-position: 50%;
+  z-index: 0;
+  margin-top: 20.8125rem;
+}
+
+/* first */
+.first-wrap {
+  max-width: 55.5rem;
+}
+
+.first-wrap__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+
+.first-wrap__top__txt {
+  width: 61.4%;
+}
+
+.first-wrap__top__txt p {
+  font-size: 1.25rem;
+}
+
+.first-wrap__top__img {
+  width: 34%;
+}
+
+.first-wrap__top__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.first-wrap__bottom {
+  margin-top: 3.75rem;
+}
+
+.first-wrap__list {
+  position: relative;
+}
+
+.first-wrap__list__item {
+  position: relative;
+  list-style: none;
+  padding-left: 4.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.first-wrap__list__item:last-of-type {
+  padding-bottom: 0;
+}
+
+.first-wrap__list__item__line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: #543f27;
+  top: 0;
+  left: 1rem;
+}
+
+.first-wrap__list__item__num {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ed6d35;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.first-wrap__list__item__num span {
+  position: absolute;
+  width: max-content;
+  font-size: 1.125rem;
+  line-height: 1;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.first-wrap__list__item__ttl p {
+  font-size: 1.25rem;
+  color: #ed6d35;
+}
+
+.first-wrap__list__item__txt {
+  margin-top: 0.625rem;
+}
+
+/* hours */
+.hours-wrap {
+  max-width: 75rem;
+}
+
+.hours-wrap__txt {
+  width: 53.4%;
+  margin: 4.5rem auto 0;
+}
+
+.hours-wrap__txt p {
+  font-size: 1.25rem;
+}
+
+.hours .cta-wrap {
+  margin-top: 3.75rem;
+}
+
+.hours .cta-nav__tel__txt p,
+.hours .cta-nav__web__txt p {
+  color: #543f27;
+}
+
+/* access */
+.access-wrap {
+  max-width: 75rem;
+  padding: 5.5rem 2.5rem 5rem;
+}
+
+.access-wrap__con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.access .date-table {
+  width: 50%;
+  margin-top: 0;
+}
+
+.access-wrap__map {
+  width: 41.6%;
+  aspect-ratio: 500 / 400;
+}
+
+.access-wrap__map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

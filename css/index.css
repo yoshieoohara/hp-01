@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+/* top */
+.top {
+  position: relative;
+  background-image: url(../img/fv-bg.png);
+  background-size: cover;
+  background-position: 50%;
+  z-index: 0;
+}
+
+.top-wrap {
+  max-width: 85rem;
+  height: calc(100vh - 20.8175rem);
+  display: flex;
+  justify-content: space-between;
+  margin: 20.8175rem auto 0;
+  padding: 0 2.5rem;
+}
+
+.top-wrap__left {
+  margin: 7.25rem 0 0 10rem;
+}
+
+.top-wrap__ttl h1 {
+  font-size: 1.75rem;
+}
+
+.top-wrap__ttl h1 .__green {
+  font-size: 2.5rem;
+  color: #3cb37a;
+}
+
+.top-wrap__ttl h1 .__orange {
+  font-size: 2.5rem;
+  color: #ed6d35;
+}
+
+.top-wrap__ttl h1 .__blue {
+  font-size: 2.5rem;
+  color: #0068b7;
+}
+
+.top-wrap__right {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 2.5rem;
+}
+
+/* news */
+.news-wrap {
+  max-width: 67.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-wrap__left {
+  width: 25.5%;
+  text-align: center;
+}
+
+.news-btn {
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+/* medical */
+.medical-wrap {
+  max-width: 75rem;
+}
+
+.medical-wrap__nav {
+  margin-top: 3.75rem;
+}
+
+.medical-wrap__nav__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.75rem;
+}
+
+.medical-wrap__nav__list__item a {
+  position: relative;
+  display: block;
+  height: inherit;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.medical-wrap__nav__list__item a:hover {
+  opacity: 0.5;
+}
+
+.medical-wrap__nav__list__item a h3 {
+  position: absolute;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #543f27;
+  text-decoration: none;
+  white-space: nowrap;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.medical-wrap__nav__list__item a img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* about */
+.about-wrap {
+  max-width: 75rem;
+}
+
+.about-wrap__con {
+  display: flex;
+  flex-direction: column;
+  gap: 3.75rem;
+  margin-top: 3.75rem;
+}
+
+.about-wrap__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-wrap__block:nth-of-type(2n) {
+  flex-direction: row-reverse;
+}
+
+.about-wrap__block__img {
+  width: 50%;
+}
+
+.about-wrap__block__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.about-wrap__block__body {
+  width: 45%;
+}
+
+.about-wrap__block__ttl {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.about-wrap__block__ttl span {
+  font-size: 1.75rem;
+}
+
+.about-wrap__block__txt {
+  font-size: 1.125rem;
+  margin-top: 2.5rem;
+}
+
+.about-btn {
+  width: 52%;
+  margin-top: 3.75rem;
+  margin-left: auto;
+}
+
+/* feature */
+.feature-wrap {
+  max-width: 75rem;
+}
+
+.feature-wrap__con {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.75rem;
+}
+
+.feature-wrap__block {
+  position: relative;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-wrap__block__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.feature-wrap__block__num {
+  position: absolute;
+  background-image: url(../img/star-icon.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: contain;
+  width: 7.5rem;
+  height: 7.5rem;
+  top: 48%;
+  left: -13%;
+}
+
+.feature-wrap__block__num span {
+  position: absolute;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.feature-wrap__block__body {
+  flex-grow: 1;
+}
+
+.feature-wrap__block__ttl {
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.feature-wrap__block__ttl h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.feature-wrap__block__txt {
+  margin-top: 1.25rem;
+}
+
+/* faq */
+.faq-wrap {
+  max-width: 67.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5.125rem 2.5rem;
+}
+
+.faq-wrap__left {
+  width: 26%;
+  text-align: center;
+}
+
+.faq-btn {
+  margin-top: 2.5rem;
+}
+
+.faq-wrap__right {
+  width: 63%;
+}
+
+/* gallery */
+.gallery-wrap {
+  display: flex;
+}
+
+.gallery-wrap__img {
+  width: 25%;
+  aspect-ratio: 360 / 300;
+}
+
+.gallery-wrap__img img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
