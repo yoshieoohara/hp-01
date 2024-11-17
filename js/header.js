@@ -1,11 +1,17 @@
-// TOP過ぎたらヘッダー変化
- jQuery(function ($) {
-    $(window).on("scroll", function () {
-    mvHeight = $(".js-top").height();
-    if ($(window).scrollTop() > mvHeight) {
-        $(".js-header").addClass("is-scroll");
+//ヘッダーの高さ分だけコンテンツを下げる
+$(function () {
+  var height = $("#header").height();
+  $("body").css("margin-top", height);
+});
+
+// スクロール後、ヘッダー変化
+$(function () {
+  var $header = $("#header");
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 160) {
+      $header.addClass("is-scroll");
     } else {
-        $(".js-header").removeClass("is-scroll");
+      $header.removeClass("is-scroll");
     }
-    });
+  });
 });
